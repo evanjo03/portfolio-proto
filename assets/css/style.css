@@ -1,8 +1,13 @@
 html {
     min-height: 100%;
+    position: relative;
+    scroll-behavior: smooth
 }
+
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 60px;/* Margin bottom by footer height */
+    font-family: 'Rubik', sans-serif;
+    min-height: 100%;
 }
 .footer {
     position: absolute;
@@ -14,12 +19,117 @@ body {
 }
 
 .header {
-    background-image: url("../images/background.jpg");
-    height: 800px;
+    background-image: url("../images/background1.jpg");
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     margin: auto;
     display: block;
 }
+
+#arrow {
+    width:45px;
+}
+
+#arrowDiv {
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=ffffff');
+    }
+
+.navbar {
+    background: none;
+    
+}
+
+a.nav-link {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.fixed-top {
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+}
+
+li.nav-item {
+    display: inline-block;
+}
+
+a:link {
+    color: 49497D;
+}
+
+a:hover {
+    color: red;
+}
+
+.name {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    text-align: right;
+}
+
+.img-skill {
+    width: 90%;
+}
+
+.carouselSelect {
+    width: 50%;
+    margin: auto;
+}
+
+
+.skills {
+    background-color: #49497D;
+    color: #fff;
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+}
+.carousel-cap {
+    text-align: center;
+}
+
+.capt {
+    font-size: 14px;
+}
+section {
+    padding: 35px;
+    font-size: 20px;
+}
+.text-sections {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.about-me {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.section-header {
+    padding: 45px 40px;
+}
+
+.sub-header {
+    padding: 30px;
+}
+
+ @media (min-width: 768px) and (max-width: 1000px)  {
+    .collapse {
+        display: none !important;
+    }
+ } 
