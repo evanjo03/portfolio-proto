@@ -30,11 +30,11 @@ body {
     display: block;
 }
 
-#arrow {
+.arrow {
     width:45px;
 }
 
-#arrowDiv {
+.arrowDiv {
     position: absolute;
     bottom: 0;
     display: block;

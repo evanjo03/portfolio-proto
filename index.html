@@ -25,13 +25,20 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto text-right mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Portfolio</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#about-me">About Me</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#projects">Portfolio</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/evanjo03" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/john-evans-034a8210b/"
+                        target="_blank">LinkedIn</a>
                 </li>
             </ul>
         </div>
@@ -41,16 +48,41 @@
             <h3>John Evans</h3>
             <h3>Software Developer</h3>
         </div>
-        <div id="arrowDiv" class="mx-auto d-block">
-            <a href="#about-me"><img id="arrow" class="img-responsive" src="assets/images/down-arrow.png"></a>
+        <div class="mx-auto d-block arrowDiv">
+            <a href="#about-me"><img class="img-responsive arrow" src="assets/images/down-arrow.png"></a>
         </div>
     </div>
     <section id="about-me" class="container-fluid about-me">
-        <div class="container ">
-            <h2 class="text-center section-header">Who I am</h2>
-            <p class="text-sections">Software developer and problem-solver with experience in full-stack development and
-                business process automation with an interest in back-end development.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center section-header">Who I am</h2>
+                    <p class="text-sections">Software developer and problem-solver with experience in full-stack
+                        development and
+                        business process automation with an interest in back-end development.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="skill">
+                        <img src="assets/images/luther_logo.jpg" alt="client" class="img-responsive img-skill" />
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="skill">
+                        <img src="assets/images/wisconsin.png" class="img-responsive img-skill" />
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="skill-image">
+                        <img src="assets/images/math.png" class="img-responsive img-skill"
+                            alt="server icon made by SmashIcons from www.flaticon.com"
+                            title="server icon made by SmashIcons from www.flaticon.com" />
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
     <section id="skills" class="container-fluid skills">
         <div class="container">
@@ -106,10 +138,24 @@
                         <img class="intSlide d-block w-100" src="assets/images/burger.png" alt="Burger Game">
                     </div>
                     <div class="carousel-item">
-                        <img class="intSlide d-block w-100" src="https://via.placeholder.com/150" alt="Second slide">
+                        <div class="carousel-cap">
+                            <span>Express Friend Finder</span>
+                            <a href="https://github.com/evanjo03/friend-finder"><button type="button"
+                                    class="btn btn-primary github">Github</button></a>
+                            <a href="https://peaceful-taiga-71851.herokuapp.com/"><button type="button" id="burgButton"
+                                    class="btn btn-secondary">View</button></a>
+                        </div>
+                        <img class="intSlide d-block w-100" src="assets/images/friend_finder.png" alt="Burger Game">
                     </div>
                     <div class="carousel-item">
-                        <img class="intSlide d-block w-100" src="https://via.placeholder.com/150" alt="Third slide">
+                        <div class="carousel-cap">
+                            <span>Train Scheduler</span>
+                            <a href="https://github.com/evanjo03/trainSchedule"><button type="button"
+                                    class="btn btn-primary github">Github</button></a>
+                            <a href="https://peaceful-taiga-71851.herokuapp.com/"><button type="button" id="burgButton"
+                                    class="btn btn-secondary">View</button></a>
+                        </div>
+                        <img class="intSlide d-block w-100" src="assets/images/train_schedule.png" alt="Burger Game">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
